@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <img src={nfc} className="App-logo" alt="logo" />
-      <h1>NFC Tool</h1>
+      <h1>NFC Toosl</h1>
       <div className="App-container">
         <button
           onClick={() => onHandleAction({ scan: "scanning", write: null })}
